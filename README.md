@@ -1,6 +1,6 @@
-# When a GU603VV keyboard gets stuck in ITE recovery mode
+# ASUS GU603VV keyboard not working in BIOS or Windows
 
-My ROG Zephyrus G16 GU603VV keyboard stopped working even in BIOS. In Windows, the internal USB device appeared as `048D:89DB` (ITE recovery) instead of the normal ASUS `0B05:19B6` keyboard. Rebuilding the first application bank on its keyboard controller brought it back. It was still working normally a month later.
+My ASUS ROG Zephyrus G16 GU603VV built-in keyboard stopped responding on startup, even in BIOS. Windows saw the internal USB device as `048D:89DB` (ITE recovery mode) instead of the normal ASUS `0B05:19B6` keyboard. Rebuilding the first application bank on its keyboard controller brought it back. It was still working normally a month later.
 
 This is a [repair write-up](docs/repair-notes.md) and a pair of read-only Windows diagnostics. The repair was verified on one laptop. The firmware writer was tied to that laptop's exact starting state and is not included.
 
