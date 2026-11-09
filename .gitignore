@@ -1,0 +1,17 @@
+# Keep captures, locally generated reports and firmware out of the repository.
+*.bin
+*.rom
+*.hex
+*.img
+*.dump
+*.dmp
+*.log
+*.json
+*.jsonl
+*.asm
+*.dll
+*.exe
+*.zip
+captures/
+private/
+.env*
